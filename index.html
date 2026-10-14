@@ -1,0 +1,30 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document Course – Mục lục</title><style>
+:root{--bg:#fff;--fg:#1f2430;--muted:#667085;--card:#f6f8fb;--line:#e4e7ec;--accent:#2563eb;--code-bg:#0f172a;--code-fg:#e2e8f0;--warn:#b45309;--warn-bg:#fef3c7;--tip:#047857;--tip-bg:#d1fae5}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1117;--fg:#e6e8ee;--muted:#98a2b3;--card:#161b24;--line:#272e3b;--accent:#6ea8fe;--code-bg:#0a0d13;--warn:#fbbf24;--warn-bg:#3b2f0b;--tip:#34d399;--tip-bg:#0b2e22}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.layout{display:flex;min-height:100vh}
+nav.toc{position:sticky;top:0;align-self:flex-start;height:100vh;overflow:auto;width:260px;flex:none;padding:24px 16px;border-right:1px solid var(--line);background:var(--card)}
+nav.toc h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 12px}
+nav.toc a{display:block;padding:5px 8px;border-radius:6px;color:var(--fg);text-decoration:none;font-size:14px}
+nav.toc a:hover{background:var(--line)}
+nav.toc a.back{color:var(--accent);margin-bottom:12px}
+main{flex:1;min-width:0;max-width:900px;margin:0 auto;padding:40px 24px 80px}
+h1{font-size:2.1rem;margin:0 0 8px}
+.lead{color:var(--muted);margin-bottom:32px}
+h2{margin-top:48px;padding-top:8px;border-top:1px solid var(--line);font-size:1.5rem}
+h3{margin-top:28px;font-size:1.15rem}
+code{font-family:ui-monospace,Consolas,monospace;font-size:.9em;background:var(--card);padding:2px 6px;border-radius:4px}
+pre{background:var(--code-bg);color:var(--code-fg);padding:16px;border-radius:10px;overflow:auto;line-height:1.5}
+pre code{background:none;padding:0;color:inherit}
+table{border-collapse:collapse;width:100%;margin:16px 0;font-size:15px}
+th,td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+th{background:var(--card)}
+.box{padding:14px 18px;border-radius:10px;margin:18px 0}
+.tip{background:var(--tip-bg);border-left:4px solid var(--tip)}
+.warn{background:var(--warn-bg);border-left:4px solid var(--warn)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:16px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.sources li{font-size:14px;color:var(--muted)}
+@media (max-width:820px){.layout{display:block}nav.toc{position:static;width:auto;height:auto;border-right:0;border-bottom:1px solid var(--line)}main{padding:24px 16px 60px}}
+main{margin:0 auto}</style></head><body><main><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;flex-wrap:wrap;gap:12px"><a href="/" style="display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:var(--accent);font-weight:600;font-size:14px;padding:8px 16px;background:var(--card);border:1px solid var(--line);border-radius:10px">← Về trang chủ Better Skills</a><span style="font-size:13px;color:var(--muted);font-weight:500">📖 Kho tài liệu tự học miễn phí</span></div><h1>Document Course</h1><p class="lead">Bộ tài liệu tổng hợp tự học cho Fullstack Developer. Mở từng chủ đề bên dưới.</p><div class="grid"><a class="card" href="c.html" style="display:block;text-decoration:none;color:inherit"><h3 style="margin:0 0 6px">Ngôn ngữ C</h3><span style="color:var(--muted);font-size:14px">Con trỏ, bộ nhớ, toolchain, UB, debug với gdb/valgrind</span></a><a class="card" href="cpp.html" style="display:block;text-decoration:none;color:inherit"><h3 style="margin:0 0 6px">C++ hiện đại</h3><span style="color:var(--muted);font-size:14px">RAII, smart pointer, move, template, STL, đa luồng</span></a><a class="card" href="html.html" style="display:block;text-decoration:none;color:inherit"><h3 style="margin:0 0 6px">HTML5</h3><span style="color:var(--muted);font-size:14px">Semantic, form, a11y, SEO, Web Components</span></a><a class="card" href="css.html" style="display:block;text-decoration:none;color:inherit"><h3 style="margin:0 0 6px">CSS hiện đại</h3><span style="color:var(--muted);font-size:14px">Flex/Grid, container query, @layer, :has(), oklch</span></a><a class="card" href="js.html" style="display:block;text-decoration:none;color:inherit"><h3 style="margin:0 0 6px">JavaScript + TypeScript</h3><span style="color:var(--muted);font-size:14px">Event loop, async, ESM, Node.js, tooling</span></a><a class="card" href="java.html" style="display:block;text-decoration:none;color:inherit"><h3 style="margin:0 0 6px">Java</h3><span style="color:var(--muted);font-size:14px">OOP, Collections, Stream, concurrency, Spring Boot</span></a><a class="card" href="swt.html" style="display:block;text-decoration:none;color:inherit"><h3 style="margin:0 0 6px">SWT (Eclipse)</h3><span style="color:var(--muted);font-size:14px">Widget, layout, JFace, UI thread, đóng gói</span></a><a class="card" href="uiux.html" style="display:block;text-decoration:none;color:inherit"><h3 style="margin:0 0 6px">UI/UX Design</h3><span style="color:var(--muted);font-size:14px">Heuristics, design system, pattern thương mại điện tử B2B</span></a><a class="card" href="vibecoding.html" style="display:block;text-decoration:none;color:inherit"><h3 style="margin:0 0 6px">Vibe Coding & AI-assisted dev</h3><span style="color:var(--muted);font-size:14px">Workflow, prompt, context, rủi ro, quản lý team</span></a></div></main></body></html>
